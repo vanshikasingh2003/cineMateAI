@@ -1,8 +1,15 @@
-// npm run start
-import './App.css';
+
+import { createBrowserRouter } from 'react-router-dom';
+import Body from './components/Body';
+import Header from './components/Header';
+
 
 function App() {
-  return <div className="text-3xl font-bold text-green-800">hello</div>
+  return (
+    <div>
+      <Body/>
+    </div>
+  );
 }
 
 export default App;
